@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-13 17:15:18</sys_created_on>
+        <sys_id>aecedd2b83d232107f44790151da1e2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snpi_hhd_hhd_table.x_snpi_hhd.admin</sys_name>
+        <sys_package display_value="HHD" source="x_snpi_hhd">115d6063835232107f44790151da1e29</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HHD">115d6063835232107f44790151da1e29</sys_scope>
+        <sys_security_acl display_value="x_snpi_hhd_hhd_table">eecedd2b83d232107f44790151da1e2a</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_aecedd2b83d232107f44790151da1e2c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-13 17:15:18</sys_updated_on>
+        <sys_user_role display_value="x_snpi_hhd.admin" name="x_snpi_hhd.admin">655d6063835232107f44790151da1e2d</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
