@@ -6,9 +6,13 @@
         <element attributes="encode_utf8=false" default="javascript:gs.getUserID()" dynamic_default_value="90d1921e5f510100a9ad2572f2b477fe" label="Prototype Evangelist" max_length="32" name="prototype_evangelist" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="state" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Missing" sequence="0" value="Missing"/>
-                <element inactive_on_update="false" label="In use" sequence="0" value="In use"/>
+                <element inactive_on_update="false" label="Retired" sequence="6" value="Retired"/>
+                <element inactive_on_update="false" label="In maintenance" sequence="3" value="In maintenance"/>
+                <element inactive_on_update="false" label="Missing" sequence="2" value="Missing"/>
+                <element inactive_on_update="false" label="In use" sequence="1" value="In use"/>
+                <element inactive_on_update="false" label="In transit" sequence="4" value="In transit"/>
                 <element inactive_on_update="false" label="In stock" sequence="0" value="In stock"/>
+                <element inactive_on_update="false" label="On order" sequence="5" value="On order"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Active until" max_length="40" name="active_until" type="glide_date"/>
